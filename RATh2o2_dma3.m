@@ -1,4 +1,4 @@
-function [T gsh gssg h2o2 T_7p5 h2o2dma3_7p5 gshdma3_7p5] =RATarsenic2018
+function [T gsh gssg h2o2 T_7p5 h2o2dma3_7p5 gshdma3_7p5] =RATh2o2_dma3
 
 close all
 
