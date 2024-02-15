@@ -15,7 +15,8 @@ script RATh2o2_dma3.m. All other .m files (which calculate reaction and transpor
                      * Rename RATh2o2_dma3.m to RATh2o2_(xenobiotic name).m and modify the code so that it does for your xenobiotic what was done here for DMA3/DMA5. PK/TK equations
                        should be defined beginning at equation 100. The equations before this describe constitutive hepatocyte metabolism. If the xenobiotic targets extramitochondrial
                        organelles (as does DMA3), its variable should appear in equation 32 (H2O2 in cytoplasm). If it targets mitochondria, its variable should appear in equation 21
-                       (H2O2 in mitochondria). If you are uncertain, putting it in equation 32 provides a reasonable approximation since there is GSH transport between mitochondria and                                    cytoplasm. In the code, Naranmandura's DMA3 cell survival data sets should be replaced with analogous data sets for your xenobiotic.
+                       (H2O2 in mitochondria). If you are uncertain, putting it in equation 32 provides a reasonable approximation since there is GSH transport between mitochondria
+                       and cytoplasm. In the code, Naranmandura's DMA3 cell survival data sets should be replaced with analogous data sets for your xenobiotic.
                      
                      
 
