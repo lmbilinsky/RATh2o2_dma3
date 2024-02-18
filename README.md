@@ -1,11 +1,13 @@
 # RATh2o2_dma3
 
-1. To reproduce the in vitro arsenic simulations in ``A Computational Model of Endogenous Hydrogen Peroxide Metabolism in Hepatocytes, Featuring a Critical Role for GSH," run the Matlab
-script RATh2o2_dma3.m. All other .m files (which calculate reaction and transport velocities) in this repository are called by this master script should be stored in the same directory/folder as it.
+1. Update to the model: for increased realism, ``deathrate" is now 0 if the intracellular h2o2 concentration, [h2o2], is less than 1 micromolar. Otherwise, it is as described in the paper.
 
-2. If you are not interested in the arsenic application, and just want access to the in vitro computational model of endogenous H2O2 metabolism in rat hepatocytes, please see the repository RATh2o2. 
+3. To reproduce the in vitro arsenic simulations in ``A Computational Model of Endogenous Hydrogen Peroxide Metabolism in Hepatocytes, Featuring a Critical Role for GSH," run the Matlab
+script RATh2o2_dma3.m. All other .m files (which calculate reaction and transport velocities) in this repository are called by this master script and should be stored in the same directory/folder as it.
 
-3. If you wish to conjoin the in vitro computational model of endogenous H2O2 metabolism in rat hepatocytes to an in vitro PK/TK model for another ROS-generating xenobiotic to create a new PBPK/PD model, please note the following.
+4. If you are not interested in the arsenic application, and just want access to the in vitro computational model of endogenous H2O2 metabolism in rat hepatocytes, please see the repository RATh2o2. 
+
+5. If you wish to conjoin the in vitro computational model of endogenous H2O2 metabolism in rat hepatocytes to an in vitro PK/TK model for another ROS-generating xenobiotic to create a new PBPK/PD model, please note the following.
 
                        PRELIMINARIES:
    
